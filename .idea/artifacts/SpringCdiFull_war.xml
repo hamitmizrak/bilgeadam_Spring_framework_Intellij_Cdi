@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringCdiFull:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SpringCdiFull</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SpringCdiFull-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SpringCdiFull:war exploded" />
+    </root>
+  </artifact>
+</component>
